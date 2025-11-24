@@ -1,0 +1,350 @@
+@media (max-width:768px){
+    
+    .hero{
+        height: 100vh;
+        position: relative;
+    }
+
+    .deco-hero {
+        width: 180px;
+        top: 38%;     
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hero .profile-title{
+        position: absolute;
+        top: 2rem;
+        right: 1.5rem;      
+        left: auto;
+        text-align: right;
+        margin-bottom: 0;
+        transform: none;    
+        opacity: 1;
+    }
+
+    .hero-title.dtu,
+    .hero-title.dtu.on{
+        transform: none;
+    }
+
+    .about-title-wrap .mo {
+        margin-top: 1rem;
+    }
+
+    .mo {
+        display: block;
+        font-size: 3rem;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .values-row-bg {
+        padding: 1.25rem;
+        display: block;
+    } 
+
+    .values-row { 
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+    }
+
+    .value-card {
+        aspect-ratio: 1 / 1;
+        padding: 1.25rem;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .value-card-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;   
+    }
+
+    .value-icon {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-bottom: 0.2rem;
+        flex-shrink: 0;
+    }
+
+    .value-label {
+        display: block;
+        max-width: none;          
+        margin: 0 auto;           
+        line-height: var(--lnh140);
+        word-break: keep-all;
+        text-align: center;
+    }
+
+    .values-detail {
+        display: block;            
+        margin-top: 3rem;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .values-detail-title {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        white-space: normal; 
+    }
+
+    .values-detail-body {
+        max-width: 20rem;
+        margin: 0 auto 6rem;
+        text-align: center;       
+        line-height: var(--lnh140);         
+        word-break: keep-all; 
+    }
+
+    .profile .common-frame::before,
+    .profile .common-frame::after{
+        content: none !important;
+        display: none !important;
+    }
+
+    .profile {
+        margin-top: 4rem;
+        background: transparent;
+    }
+
+    .profile-heading {
+        font-size: 6rem;
+        text-align: center;
+        margin: 0;
+        padding: 0rem 1.5rem 5rem;
+        background: var(--profile-top-bg);
+    }
+
+    .profile-layout {
+        display: block;
+        padding-top: 0;
+    }
+
+    .profile-deco {
+        position: absolute;
+        right: 4rem;
+        top: 46rem;
+        width: 10rem;
+        transform: rotate(20deg);
+    }
+
+    .profile-left {
+        padding: 0 1.5rem 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background:var(--profile-top-bg);           
+    }
+
+    .profile-photo-wrap {
+        max-width: 260px;
+        width: 100%;
+        margin: 0 auto 1.5rem;
+    }
+
+    .profile-intro-main {
+        text-align: center;
+        margin-top: 2rem;
+
+    }
+
+    .profile-intro-sub {
+        text-align: center;
+    }
+
+    .profile-right {
+        background: var(--profile-bottom-bg);
+        padding: 3rem 2rem 3rem;
+        position: relative;
+    }
+
+    .profile-info {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 1.5rem;
+        row-gap: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-cert-title {
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+
+    .cert-item {
+        display: grid;
+        grid-template-columns: 4.8rem 1fr;
+        column-gap: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .profile-cert-date {
+        font-weight: var(--weight1);
+    }
+
+    .cert-line {
+        display: block;
+        font-size: var(--body2);
+        line-height: var(--lnh140);
+    }
+
+    .experience {
+        margin: 0;
+    }
+
+    .exp-title {
+        font-size: 3.5rem;
+        line-height: var(--lnh140);
+        margin: 0 0 3rem;
+        padding: 0 1.5rem;      
+        text-align: left;
+    }
+    
+    .exp-header {
+        display: block;
+    }
+
+    .exp-area {
+        width: 100%;
+        display: block;
+        padding: 0 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .exp-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .exp-item {
+        display: block;          
+        margin-bottom: 1.5rem;
+    }
+
+    .exp-period {
+        display: block;
+        min-width: auto;
+        text-align: left;
+        white-space: normal;
+        margin-bottom: 0.25rem;
+    }
+
+    .exp-detail {
+        display: block;
+        white-space: normal;
+    }
+
+    .skills-visual {
+        margin: 2rem 0 1.5rem;
+        padding: 0 1rem; 
+    }
+
+    .skills-visual img {
+        width: 100%;
+        max-width: 100%;
+    }
+  
+}
+
+
+@media (max-width:400px){
+
+    .mo {
+        display: block;
+        font-size: 2.5rem;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .value-label {
+        font-size: 1rem;
+    }
+
+    .profile-heading {
+        font-size: 3rem;
+        text-align: center;
+        margin: 0;
+        padding: 0rem 1.5rem 5rem;
+        background: var(--profile-top-bg);
+    }
+    
+    .profile-deco {
+        position: absolute;
+        right: 7rem;
+        top: 43rem;
+        width: 5.5rem;
+        transform: rotate(20deg);
+    }
+
+    .exp-title {
+        font-size: 2rem;
+        line-height: var(--lnh140);
+        margin: 0 0 3rem;
+        padding: 0 1.5rem;      
+        text-align: left;
+    }
+
+    .skills-title {
+        font-size: 3rem;
+    }
+
+    .skills-visual {
+        margin: 1.5rem 0 1rem;
+    }
+
+    .skills-visual img {
+        width: 100%;
+    }
+
+    .visual {
+    margin-top: 4rem;
+    padding: 2.5rem 0 3.5rem;
+}
+
+/* 배경 텍스트는 살짝 줄이고 간격 좁히기 */
+.visual-bg {
+    justify-content: flex-start;
+    padding-top: 3rem;
+    letter-spacing: 0.12em;
+}
+
+.visual-bg-top {
+    font-size: 4rem;
+}
+
+.visual-bg-bottom {
+    font-size: 4rem;
+}
+
+/* 썸네일 영역 */
+.visual-row {
+    margin-bottom: 1.2rem;
+}
+
+.visual-card {
+    flex: 0 0 10rem;
+}
+
+.visual-row-top .visual-track,
+.visual-row-bottom .visual-track {
+    animation-duration: 28s;
+}
+}

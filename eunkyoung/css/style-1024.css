@@ -1,0 +1,253 @@
+@media (max-width:1024px){
+
+    .hero { 
+        height: 100vh; 
+    }
+
+    .about-title-wrap .tab {
+        font-size: 3rem;
+        margin-top: 1rem;
+        line-height: var(--lnh140);
+    }
+
+    .mo { 
+        display: none; 
+    }
+
+    .deco-hero {
+        width: 238px;
+        top: 30vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .values-row {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.25rem;
+    }
+
+    .value-card {
+        height: 11rem;
+        padding: 1.5rem;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;  
+        text-align: left;
+    }
+
+    .value-card-inner {
+        display: flex;
+        flex-direction: row;         
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+        text-align: left;
+    }
+
+    .value-icon {
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 0;            
+        flex-shrink: 0;
+    }
+
+    .value-label {
+        max-width: none;
+        line-height: var(--lnh140);
+        word-break: keep-all;
+    }
+
+    .values-detail {
+        flex-direction: column;
+        align-items: left;
+        text-align: left;
+        gap: 1rem;
+        margin-top: 2.5rem;
+    }
+
+    .values-detail-body {
+        max-width: 52.8rem;
+        margin: 0;
+    }
+    
+    .profile {
+        margin-top: 6rem;
+    }
+
+    .profile-heading {
+        font-size: 5rem;
+        line-height: 0.7;
+        text-align: center;
+        letter-spacing: 0;     
+        margin: 0 0 2.5rem;
+    }
+
+    .profile-deco {
+        position: absolute;
+        right: 6rem;
+        top: -4rem;
+        width: 8rem;
+        transform: rotate(20deg);
+    }
+
+    .profile .common-frame::before {
+        width: 50%;            
+    }
+
+    .profile .common-frame::after {
+        left: 50%;
+        width: 50%;
+    }
+
+    .profile-layout {
+        display: grid;
+    }
+
+    .profile-left {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: transparent;
+    }
+
+    .profile-photo-wrap {
+        max-width: 240px;
+        width: 100%;
+        margin: 0 auto 3rem;
+    }
+
+    .profile-intro-main {
+        font-size: 1.25rem;
+        font-weight: var(--weight1);
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-intro-sub {
+        font-size: 0.95rem;
+        line-height: 1.45;
+        text-align: center;
+    }
+
+    .profile-right {
+        position: relative;
+    }
+
+    .profile-info {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 2rem;
+        row-gap: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .profile-cert-title {
+        font-size: 0.95rem;
+    }
+
+    .cert-item {
+        display: grid;
+        grid-template-columns: 4.5rem 1fr;
+        column-gap: 1rem;
+    }
+
+    .profile-cert-date {
+        font-weight: var(--weight1);
+    }
+
+    .cert-line {
+        font-size: 0.9rem;
+        line-height: var(--lnh140);
+    }
+    
+    .exp-header {
+        flex-direction: column;    
+        gap: 2rem;
+    }
+    
+    .exp-title {
+        font-size: 4rem;           
+        line-height: var(--lnh140);
+    }
+    
+    .exp-area {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .exp-list {
+        list-style: none;
+        margin: 1rem 0 4rem;
+        padding: 0;
+    }
+    
+    .exp-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        column-gap: 2rem;         
+        margin-bottom: 0.7rem;
+    }
+    
+    .exp-period {
+        min-width: 170px;          
+        text-align: right;
+        white-space: nowrap;
+    }
+    
+    .exp-detail {
+        white-space: nowrap;
+    }
+
+    .skills-title {
+        font-size: 3rem;
+    }
+
+    .skills-visual {
+        margin: 3rem 0 1.5rem;
+    }
+
+    .skills-visual img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .visual {
+        margin-top: 5rem;
+        padding: 3rem 0 4rem;
+    }
+    
+    .visual-bg {
+        letter-spacing: 0.16em;
+    }
+    
+    .visual-bg-top {
+        font-size: 6.5rem;
+    }
+    
+    .visual-bg-bottom {
+        font-size: 6.5rem;
+    }
+    
+    .visual-row {
+        margin-bottom: 1.5rem;
+    }
+    
+    .visual-card {
+        flex: 0 0 13rem;   
+    }
+    
+    .visual-row-top .visual-track,
+    .visual-row-bottom .visual-track {
+        animation-duration: 32s;
+    }
+
+}
+
+
+
+

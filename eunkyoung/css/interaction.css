@@ -1,0 +1,36 @@
+.ltr{
+    transform: translateX(-20px);
+    transition: all 1s ease 0s;
+    opacity: 0;
+}
+.ltr.on{
+    opacity: 1;
+    transform: translateX(0);
+}
+.utd{
+    transform: translate(-50%,-70%);
+    transition: all 1s ease 0s;
+    opacity: 0;
+}
+.utd.on{
+    opacity: 1;
+    transform: translate(-50%,-50%);
+}
+.dtu{
+    transform: translateY(120px);
+    transition: all 1s ease 0s;
+    opacity: 0;
+}
+.dtu.on{
+    opacity: 1;
+    transform: translateY(0);
+}
+.rtl-deco{
+    transform: rotate(15deg)translateX(20px);
+    transition: all 1s ease 0s;
+    opacity: 0;
+}
+.rtl-deco.on{
+    opacity: 1;
+    transform: rotate(0deg)translateX(0);
+}
